@@ -16,7 +16,7 @@ console.log('Environment Variables:', {
 const config = {
   aiProviderApiKey: process.env.AI_PROVIDER_API_KEY || '',
   aiProvider: process.env.AI_PROVIDER || 'openai', 
-  aiModel: process.env.AI_MODEL || 'gpt-3.5-turbo', 
+  aiModel: process.env.AI_MODEL || '', 
   walletPrivateKey: process.env.PRIVATE_KEY || '',
   rpcUrl: process.env.RPC_URL || '',
 };
